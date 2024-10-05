@@ -2,6 +2,8 @@
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
+# DEVELOPED BY: MOHAN S
+# REGISTER NO: 212223240094
 
 # AIM:
 To practice Linux Commands and Shell Scripting
@@ -42,24 +44,24 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
-
+![Screenshot from 2024-10-05 09-26-59](https://github.com/user-attachments/assets/1c94bfa3-4dd6-4254-8ecb-d54e83337fc2)
 
 cat < file2
 ## OUTPUT
-
+![Screenshot from 2024-10-05 09-27-42](https://github.com/user-attachments/assets/316e6d11-a479-447d-92fa-3f9736300743)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+![Screenshot from 2024-10-05 09-29-25](https://github.com/user-attachments/assets/743cfec1-061b-40aa-8d57-104e6dc4df57)
+
 comm file1 file2
  ## OUTPUT
+![Screenshot from 2024-10-05 09-30-21](https://github.com/user-attachments/assets/82f61d84-d209-481f-b57b-ffadd70c2b8d)
 
- 
-diff file1 file2
+ diff file1 file2
 ## OUTPUT
-
+![Screenshot from 2024-10-05 09-31-05](https://github.com/user-attachments/assets/57371bb8-3619-4f65-adad-86e8a81fd534)
 
 #Filters
 
@@ -82,18 +84,15 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
-
-
+![Screenshot from 2024-10-05 09-34-50](https://github.com/user-attachments/assets/b339319e-f66b-4d46-a066-9f66c9599aec)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
-
+![Screenshot from 2024-10-05 09-35-27](https://github.com/user-attachments/assets/efd15eb9-f7c1-4db1-9f71-04fdde7221b4)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![Screenshot from 2024-10-05 09-35-53](https://github.com/user-attachments/assets/cc0c8f4b-69b4-4325-98c2-e257cbca8c17)
 
 cat < newfile 
 ```
@@ -107,36 +106,27 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
-
+![Screenshot from 2024-10-05 09-38-13](https://github.com/user-attachments/assets/c4fabaed-1e7c-4b68-919d-a45766d30479)
 
 grep hello newfile 
 ## OUTPUT
-
-
-
+![Screenshot from 2024-10-05 09-38-39](https://github.com/user-attachments/assets/f2cdd1b5-8532-4aff-93ee-681a172d5383)
 
 grep -v hello newfile 
 ## OUTPUT
-
-
+![Screenshot from 2024-10-05 09-39-11](https://github.com/user-attachments/assets/3e8ede08-6739-46e2-b98c-fa2b66fb79cd)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
-
-
+![Screenshot from 2024-10-05 09-39-39](https://github.com/user-attachments/assets/11bd502f-11cc-4b19-acab-5d8f9bc36a4e)
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-
-
+![Screenshot from 2024-10-05 09-40-19](https://github.com/user-attachments/assets/37f3995f-35c2-487d-8570-07ab972eff0e)
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-
+![Screenshot from 2024-10-05 09-42-10](https://github.com/user-attachments/assets/eb261399-9c43-4343-b53c-f5c8591e58e8)
 
 grep -w -n world newfile   
 ## OUTPUT

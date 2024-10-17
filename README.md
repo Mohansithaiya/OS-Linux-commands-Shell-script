@@ -45,19 +45,24 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 ![Screenshot 2024-08-28 081246](https://github.com/user-attachments/assets/1b2572e4-2a0a-413f-bdbb-fd5ed28f049a)
+
 cat < file2
 ## OUTPUT
 ![Screenshot 2024-08-28 081301](https://github.com/user-attachments/assets/6f5632b0-863e-42e1-8123-bc805b2a04a1)
+
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
 ![Screenshot 2024-08-28 081442](https://github.com/user-attachments/assets/9a7c7046-51d9-4231-980a-d6f914249a1e)
+
 comm file1 file2
  ## OUTPUT
 ![Screenshot 2024-08-28 081516](https://github.com/user-attachments/assets/57c1dc74-5eea-4d24-8aef-332488a2f714)
+
  diff file1 file2
 ## OUTPUT
 ![Screenshot 2024-08-28 081626](https://github.com/user-attachments/assets/a133d080-7122-4ec9-b435-3e5799514082)
+
 #Filters
 
 ### Create the following files file11, file22 as follows:
@@ -84,6 +89,7 @@ cut -c1-3 file11
 cut -d "|" -f 1 file22
 ## OUTPUT
 ![Screenshot 2024-08-28 081747](https://github.com/user-attachments/assets/1be2b409-62a8-46b1-8374-8d9050ee0a23)
+
 cut -d "|" -f 2 file22
 ## OUTPUT
 ![Screenshot 2024-08-28 081756](https://github.com/user-attachments/assets/5b85d8fa-0d4f-4b1d-92ca-ce811751572a)
@@ -198,7 +204,6 @@ egrep l{2} newfile
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
 ![Screenshot 2024-08-28 084916](https://github.com/user-attachments/assets/71f7f11a-fa5e-4c17-8fd9-a6335a707d8f)
 
 
@@ -329,6 +334,7 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 ![Screenshot 2024-08-28 091127](https://github.com/user-attachments/assets/af9c8016-d10d-43c1-90f5-a7a0922cfd87)
+
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -982,6 +988,7 @@ fi
 ## OUTPUT
 
 ![image-78](https://github.com/user-attachments/assets/4d91232c-816a-4cf6-aed8-11ba43e9b853)
+
  ./funcex.sh 
 
  ./funcex.sh 1 2
@@ -997,6 +1004,7 @@ done
 ```
 $ chmod 777 argshift.sh
 ![image-79](https://github.com/user-attachments/assets/8c3e6aca-fa2e-4601-a8e3-caee39e227a2)
+
 ## OUTPUT
 $ ./argshift.sh 1 2 3
  
